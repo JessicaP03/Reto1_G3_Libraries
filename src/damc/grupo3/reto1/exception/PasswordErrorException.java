@@ -10,6 +10,7 @@ import java.util.logging.Logger;
 
 /**
  *This exception is used to cover an error in the password
+ * prueba
  * @author Alejandro
  */
 public class PasswordErrorException extends Exception{
