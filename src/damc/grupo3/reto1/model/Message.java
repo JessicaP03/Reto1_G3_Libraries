@@ -47,4 +47,8 @@ public class Message implements Serializable{
     public User getUser() {
         return user;
     }    
+
+    void setMessageType(damc.grupo3.reto1.model.MessageType messageType) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
