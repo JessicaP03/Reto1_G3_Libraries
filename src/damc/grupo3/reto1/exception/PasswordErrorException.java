@@ -9,7 +9,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *This exception is used to cover an error in the password
+ * This exception is used to cover an error in the password
  * @author Alejandro
  */
 public class PasswordErrorException extends Exception{

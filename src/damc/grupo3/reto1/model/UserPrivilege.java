@@ -6,7 +6,7 @@
 package damc.grupo3.reto1.model;
 
 /**
- *This enum class is used to asign the privileges whose user can have 
+ * This enum class is used to asign the privileges whose user can have 
  * @author Alejandro
  */
 public enum UserPrivilege {

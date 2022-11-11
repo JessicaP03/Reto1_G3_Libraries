@@ -11,7 +11,7 @@ import damc.grupo3.reto1.exception.UserAlreadyExitsException;
 import damc.grupo3.reto1.exception.UserNotFoundException;
 
 /**
- *This interface is used to instance the parameters wich are get on our SignIn and SignUp windows
+ * This interface is used to instance the parameters wich are get on our SignIn and SignUp windows
  * @author Diego
  */
 public interface Sign {

@@ -5,11 +5,13 @@
  */
 package damc.grupo3.reto1.model;
 
+import java.io.Serializable;
+
 /**
- *This enum class is used to asign all the type of messages 
+ * This enum class is used to asign all the type of messages 
  * @author Alejandro
  */
-public enum MessageType {
+public enum MessageType implements Serializable{
     SIGNIN_REQUEST, 
     SIGNUP_REQUEST, 
     OK_RESPONSE, 
