@@ -5,18 +5,21 @@
  */
 package damc.grupo3.reto1.model;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *This class is asigned to the user
+ * This class is asigned to the user
+ *
  * @author Diego
  */
-public class User {
+public class User implements Serializable {
+
     /*
     atributes
-    */
+     */
     private Integer id;
     private String login;
     private String email;
@@ -26,11 +29,11 @@ public class User {
     private String password;
     private Date lastPasswordChange;
     private static final Logger LOG = Logger.getLogger(User.class.getName());
-    
+
     /*
-    constructors
-    */
-    public User(){
+    * constructors
+     */
+    public User() {
     }
 
     public User(Integer id, String login, String email, String fullname, UserStatus status, UserPrivilege privilegde, String password, Date lastPasswordChange) {
@@ -44,9 +47,7 @@ public class User {
         this.lastPasswordChange = lastPasswordChange;
     }
 
-    /*
-    setters and getters
-    */
+    //setters and getters
     public Integer getId() {
         return id;
     }
@@ -111,11 +112,11 @@ public class User {
         this.lastPasswordChange = lastPasswordChange;
     }
 
-    /*
-    one method to show the parameters in a readable format
-    */
+    /**
+     * Method to show the parameters in a readable format
+     **/
     @Override
     public String toString() {
         return "User{" + "id=" + id + ", login=" + login + ", email=" + email + ", fullname=" + fullname + ", status=" + status + ", privilegde=" + privilegde + ", password=" + password + ", lastPasswordChange=" + lastPasswordChange + '}';
-    }   
+    }
 }

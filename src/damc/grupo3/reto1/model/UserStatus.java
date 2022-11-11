@@ -6,10 +6,10 @@
 package damc.grupo3.reto1.model;
 
 /**
- *This enum class is used to asign the status whose user can have 
+ * This enum class is used to asign the status whose user can have 
  * @author Alejandro
  */
-//comentario
+
 public enum UserStatus {
     ENABLED, DISABLED;
 }
